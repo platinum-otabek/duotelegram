@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+@media screen and (max-width:800px){
+    
+    .rounded{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .rounded img{
+        width: 200px !important;
+        height: 200px !important;
+        border-radius: 50% !important;
+        padding-left: 0px;
+    }
+    #name, #aim{
+        font-size: 2rem;
+        
+    }
+}
+@media screen and (min-width:1200px){
+    .rounded{
+        width: 300px ;
+        padding-left: 35% !important;
+        height: 300px;
+        
+    }
+    .rounded img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        
+    }
+     body {
+        margin-top: 20px;
+        margin-left: 60%; 
+        
+    } 
+    
+    p {
+        margin-top: 30px;
+        margin-right:20px ;
+        width: auto;
+        font-size: 2rem;
+        
+    }
+    .aim{
+        margin-top: 10px;
+        text-align: center;
+    }
+}

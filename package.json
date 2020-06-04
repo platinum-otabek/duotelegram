@@ -1,0 +1,40 @@
+{
+  "name": "duo_telegram",
+  "version": "0.3.0",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "base64-img": "^1.0.4",
+    "concurrently": "^5.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.9.15",
+    "morgan": "~1.9.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/platinum-otabek/duo_telegram"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
+  
+}

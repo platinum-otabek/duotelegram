@@ -11,14 +11,14 @@ html{
     .rounded{
         margin: 0px;
         padding: 0px;
-        width: 100%;
+        width: 300px !important; 
         
     }
     .rounded img{
         width: 200px !important;
         height: 200px !important;
         border-radius: 50% !important;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
     #name, #aim{
         font-size: 40px !important;
@@ -27,9 +27,8 @@ html{
 }
 @media screen and (min-width:1200px){
     .rounded{
-        width: 300px ;
-        padding-left: 35% !important;
-        height: 300px;
+        width: 300px !important;
+        /* padding-left: 35% !important; */
         
     }
     .rounded img{

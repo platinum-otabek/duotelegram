@@ -110,13 +110,13 @@ module.exports = () => {
 
             }
         }
-        if (msg.text != '/delete') { 
+        if (msg.text == '/delete') { 
             const user = await User.findOne({
                 chat_id: msg.chat.id
             });
             const deleteUser = await User.deleteOne({chat_id:user.chat_id});
             bot.sendMessage(msg.chat.id, 'Ma`lumotlaringiz muvaffaqiyatli o`chirildi! Yangidan ma`lumot kiritishingiz mumkin');
-        }
+        } 
 
 
     });

@@ -7,7 +7,7 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node ./bin/www",
     "test": "node test.js"
   },
   "dependencies": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platinum-otabek/duo_telegram"
+    "url": "https://github.com/platinum-otabek/duotelegram"
   },
   "keywords": [
     "node",

@@ -6,21 +6,22 @@
 html{
     font-size: 10px;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:996px){
     
     .rounded{
         margin: 0px;
         padding: 0px;
+        width: 100%;
         
     }
     .rounded img{
         width: 200px !important;
         height: 200px !important;
         border-radius: 50% !important;
-        padding-left: 0px;
+        padding-left: 10px;
     }
     #name, #aim{
-        font-size: 2rem;
+        font-size: 40px !important;
         
     }
 }

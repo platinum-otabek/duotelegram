@@ -9,17 +9,21 @@ html{
 @media screen and (max-width:996px){
     
     .rounded{
-        margin: 0px;
-        padding: 0px;
-        width: 300px !important; 
+        width: 50%!important;
+        /* padding-left: 35% !important; */
         
     }
     .rounded img{
-        width: 200px !important;
-        height: 200px !important;
-        border-radius: 50% !important;
-        /* padding-left: 10px; */
+        width: 500px !important; 
+        height: 500px !important;
+        border-radius: 50%;
+        
     }
+     body {
+        margin-top: 20px;
+        margin-left: -30px !important; 
+        
+    } 
     #name, #aim{
         font-size: 40px !important;
         
@@ -39,7 +43,7 @@ html{
     }
      body {
         margin-top: 20px;
-        margin-left: 60%; 
+        margin-left: 50%; 
         
     } 
     

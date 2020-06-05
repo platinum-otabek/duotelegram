@@ -82,8 +82,8 @@ module.exports = () => {
                     bot.getFileLink(file_id).then(async (fileUri) => {
                         let time = process.hrtime();
                         let extension = fileUri.split('.').pop();
-                        let newName = `${time[0]}${time[1]}.${extension}`;
-                        let file = fs.createWriteStream(`${downloadDir}/${newName}`);
+                        let newName = await `${time[0]}${time[1]}.${extension}`;
+                        let file = await fs.createWriteStream(`${downloadDir}/${newName}`);
                         let request = await https.get(fileUri, (response) => {
                             response.pipe(file);
 

@@ -18,6 +18,9 @@ const UserSchema = new Schema({
         type:String,
         
     },
+    guruh_id:{
+        type:String,
+    },
     step_id:{
         type:Number
     },

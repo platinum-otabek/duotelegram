@@ -98,7 +98,7 @@ module.exports = () => {
                                 }
                             });
                             updatePic.then(() => {
-                                bot.sendMessage(msg.chat.id, `${user.name} ma'lumotlaringiz yuklandi biz bilan bolganinggizdan xursandmiz:`);
+                                bot.sendMessage(msg.chat.id, `${user.name} ma'lumotlaringiz yuklandi biz bilan bolganinggizdan xursandmiz mashqni bajarish uchun http://142.93.238.197/ linkni ustiga bosing`);
                             }).catch((err) => {
                                 console.log(err);
                             })

@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  script.
+    const user = !{JSON.stringify(all_data)}
+    var i=0;
+    var intervalPic = setInterval(()=>{
+        
+    if(i != user.length){
+      document.getElementById("intervalPic").src =  user[i].pic_dic
+      document.getElementById("name").innerHTML =  user[i].name 
+      document.getElementById("aim").innerHTML =  user[i].purpose_time  + ' gacha ' + user[i].purpose
+    }
+    if(i == user.length)      
+      clearInterval(intervalPic)
+        i++;
+      },30000)
+  .container
+    .rounded.mx-auto
+      img#intervalPic(src='images/logo.jpg', alt='')
+    .aim
+      p.text-center#name 
+      p.text-center#aim 
+
+      

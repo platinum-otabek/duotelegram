@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api')
 const fs = require('fs');
-const TOKEN = '1022726737:AAFpRUSCy1j8s50f5zCidQoz9Ik-bw8RiCc';
+const TOKEN = '1219875828:AAGcIPUbirr3iHEcXMgvdoNOL7JOloJVCsM';
 const User = require('../models/User');
 const base64Img = require('base64-img');
 const https = require('https')

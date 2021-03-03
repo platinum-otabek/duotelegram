@@ -21,7 +21,7 @@
     "mongoose": "^5.9.15",
     "morgan": "~1.9.1",
     "node-telegram-bot-api": "^0.50.0",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   },
   "devDependencies": {
     "request": "^2.81.0",
